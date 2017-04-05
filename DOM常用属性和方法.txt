@@ -1,0 +1,39 @@
+常用的DOM方法：
+
+getElementById(id): 获取有指定惟一ID属性值文档中的元素;
+
+getElementsByTagName(name): 返回当前元素中有指定标记名的子元素的数组;
+
+hasChildNodes(): 返回一个布尔值，指示元素是否有子元素;
+
+getAttribute(name): 返回元素的属性值，属性由name指定；
+
+appendChild(element): 将element插入到当前元素后面;
+
+createElement(element): 创建一个新的element;
+
+createTextNode(text): 以text为内容创建一个新的text节点;
+
+insertBefore(new_node, old_node): 将new_node插入到old_node前面一个位置.
+
+
+
+
+
+
+
+DOM的常用属性：
+
+childNodes: 返回当前元素所有子元素的数组; //兼容性不好
+
+firstChild: 返回当前元素的第一个下级子元素;
+
+lastChild: 返回当前元素的最后一个子元素;
+
+nextSibling: 返回当前元素后面一个位置的元素;
+
+previousSibling: 返回当前元素前面一个位置的元素;
+
+parentNode: 返回当前元素的父节点.
+
+children: 返回当前元素的所有子节点；
