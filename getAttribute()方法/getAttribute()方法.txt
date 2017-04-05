@@ -1,0 +1,14 @@
+getAttribute()方法
+通过元素节点的属性名称获取属性的值。
+
+语法：
+
+elementNode.getAttribute(name);
+
+
+
+说明:
+
+1. elementNode：使用getElementById()、getElementsByTagName()等方法，获取到的元素节点。
+
+2. name：要想查询的元素节点的属性名字
